@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+
+    background-color: rgb(236, 230, 230);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    height: 66px;
+    width: 100%;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.736);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+
+.logo{
+    padding-left: 50px;
+}
+
+.nav{
+    width: 664px;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+
+    
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+li{
+    padding: 20px;
+}
+
+li a:hover{
+    color: #1982d7;
+    /* color: #D61355; */
+    border-radius: 20%;
+    /* text-transform:uppercase; */
+    border-bottom: solid 3px #1982d7;
+}
+
+/* nav a:hover::after {
+    content: "";
+    display: block;
+    border-bottom: solid 3px rgb(253, 253, 253);
+} */
+
+.Home{
+    display: flex;
+    height: 100vh;
+
+}
+
+/* ----------------format 1------------------------ */
+/* .intro {
+    padding-left: 200px;
+    padding-top: 29vh;
+    font-size:xx-large;
+    background-color:khaki;
+}
+
+.pic img {
+    height: 82vh;
+    width: 50lh;
+    object-fit: contain;
+    background-color: aqua;
+    padding-top: 18vh;
+    padding-left: 47px;
+} */
+
+/* ---------------format 2------------------------ */
+.intro {
+    padding-left: 200px;
+    padding-top: 33vh;
+    padding-right: 50px;
+    font-size:xx-large;
+    /* background-color:khaki; */
+}
+/* .intro h1{
+    color: #645CBB;
+} */
+
+.pic img {
+    height: 89vh;
+    object-fit: contain;
+    /* background-color: aqua; */
+    padding-top: 11vh;
+    padding-left: 270px;
+}
+/* ---------------------------------------About------------------------------------------ */
+.About{
+    font-size: 52px;
+    background-color: brown;
+}
+
+/* ---------------------------------------Resume---------------------------------------- */
+.Resume h2{
+    padding-right: 2%;
+}
+.Resume{
+    margin-top: 5%;
+    margin-left: 25%;
+    height: 40vh;
+    width: 50%;
+    /* background-color: rgb(152, 172, 132); */
+    background-color: rgba(0, 0, 0, 0.736);
+    color: white;
+    border-radius: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    color: azure;
+    background-color: #1982d7;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 22px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+}
+
+button:hover {
+    background-color: #0062cc;
+    font-size: 22px;
+  }
+
+.contact{
+    margin-top: 5%;
+    background-color: rgba(0, 0, 0, 0.736); 
+    color: white;
+}
+
+.contact-heading{
+    padding-left: 7%;
+}
+
+.col {
+    background-color: black;
+    margin: 4% 15%;
+    height: 11vh;
+    width: 25lh;
+    padding: 3%;
+    text-align: center;
+}
+.contact-info{
+    display: flex;
+}
+.column1{
+    margin-right: 5%;
+}
+.call a{
+    text-decoration: none;
+    color: white;
+}
